@@ -7,7 +7,7 @@ describe('App', () => {
 
     it('should have a title', () => {
         let subject = browser.getTitle();
-        let result = 'Angular2 + TypeScript';
+        let result = 'Dustin Atwood';
         expect(subject).toEqual(result);
     });
 
@@ -18,7 +18,7 @@ describe('App', () => {
 
     it('should have correct header text', () => {
         let subject = element(by.tagName('h1'));
-        expect(subject.getText()).toBe('My Angular2 + TypeScript App');
+        expect(subject.getText()).toBe('Dustin Atwood');
     });
 
     it('should have footer', () => {

@@ -10,8 +10,8 @@ describe('About Page', () => {
         expect(subject).toEqual(true);
     });
 
-    it('should have h3 header with "About Page" text', () => {
+    it('should have h3 header with "About Me" text', () => {
         let subject = element(by.tagName('h3'));
-        expect(subject.getText()).toBe('About Page');
+        expect(subject.getText()).toBe('About Me');
     });
 });
